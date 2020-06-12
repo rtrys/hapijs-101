@@ -22,3 +22,6 @@ Example project to build a simple HapiJS App, you can see the whole example at m
 ### feature/03-create-a-plugin
 - Lifecycle plugin created and registered
 
+### feature/04-extension-point-added
+- Lifecycle extension point added
+- Paths plugin created an registered
