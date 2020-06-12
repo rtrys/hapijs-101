@@ -1,6 +1,7 @@
 'use strict';
 
 const Hapi = require('@hapi/hapi');
+const lifecycle = require('./lifecycle');
 
 const init = async () => {
 
@@ -36,6 +37,9 @@ const init = async () => {
   });
 
   await server.start();
+
+  server.register(lifecycle);
+
   console.log('Server running on %s', server.info.uri);
 };
 

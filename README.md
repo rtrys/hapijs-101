@@ -19,3 +19,6 @@ Example project to build a simple HapiJS App, you can see the whole example at m
   - `/hello/:name`
   - `/json`
 
+### feature/03-create-a-plugin
+- Lifecycle plugin created and registered
+
